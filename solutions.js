@@ -38,7 +38,7 @@ function addOne(input){
 }
 
 function isEven(input){
-    return input % 2 === 0;
+    return parseFloat(input) % 2 === 0;
 }
 
 function isIdentical(input1, input2){
